@@ -1,0 +1,29 @@
+.logo {
+    height : 3rem ;
+    width : 3rem ;
+    padding : 0 5% ;
+}
+.search {
+    padding : 0.1rem ;
+    font-size : 1.2rem ;
+    width : 50vh ;
+    background : black ;
+    color : white ;
+    
+}
+.searchicon {
+    width : 2.5rem ;
+    cursor : pointer ;
+}
+.searchicon:hover {
+    padding : 0rem ;
+    box-shadow: inset 0 0 0.5rem rgb(20, 138, 235);
+}
+.header {
+    width : 100% ;
+    height : 2.5rem ;
+    background : black ;
+    align-items : center ;
+    display: flex ;
+    color : white ;
+}

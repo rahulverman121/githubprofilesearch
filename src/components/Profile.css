@@ -1,0 +1,32 @@
+.profile {
+    display : flex ;
+    width : 100%;
+    justify-content: center ;
+    background: black;
+    height : 40% ;
+    padding : 3rem 0 ;
+    color : white ;
+}
+a{
+    text-decoration: none;
+    color : white ;
+}
+.profileim {
+    padding : 5% ;
+    display :flex ;
+    flex-direction: column;
+}
+.profileimg {
+    width : 13rem ;
+    height : 13rem ;
+    border-radius : 50% ;
+    border : 0.1rem groove white ;
+    margin-bottom : 1.5rem ;
+}
+.profiledetail {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem ;
+    row-gap: 0.5rem;
+    padding: 5%;
+}
