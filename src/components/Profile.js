@@ -8,14 +8,15 @@ function Profile({user}) {
     const [data,setdata] = useState({})
     let url = 'https://api.github.com/users/'+user;
     //let urle = 'https://api.github.com/users/defunkt';
-    async function fetchProfile() {
+    
+      useEffect(() => {
+          async function fetchProfile() {
         const res = await fetch(url);
         res
           .json()
           .then(res => setdata(res));
           
       }
-      useEffect(() => {
         fetchProfile();
       },[url]);
     
