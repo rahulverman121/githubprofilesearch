@@ -1,8 +1,8 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
-import Profile from './components/Profile';
-import Repo from './components/Repo';
+//import Profile from './components/Profile';
+//import Repo from './components/Repo';
 
 
 function App() {
