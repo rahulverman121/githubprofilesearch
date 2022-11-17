@@ -15,7 +15,7 @@ function Header() {
         <div className='header'>
             <img src={logo} alt="logo" className='logo'/>
             <input type="search" placeholder="Search.." onChange={ (e) => setusera(e.target.value)} className="search"/>
-            <img src={srch} className='searchicon' onClick={ () => setuser(usera)}/>
+            <img src={srch} alt="" className='searchicon' onClick={ () => setuser(usera)}/>
             
         </div>
         <Profile user={username} />
