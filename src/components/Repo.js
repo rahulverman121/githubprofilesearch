@@ -7,14 +7,16 @@ function Repo({user}) {
     const [page,setPage]=useState(1);
     const url = 'https://api.github.com/users/'+user+'/repos' ;
     
-    async function fetchRepo() {
+    
+    useEffect(() => {
+        async function fetchRepo() {
         const repos = await fetch(url);
         repos
         .json()
         .then(repos => setRepos(repos));
         
     }
-    useEffect(() => {
+        
         fetchRepo();
       },[url]);
       function inc() {
