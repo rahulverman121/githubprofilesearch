@@ -1,8 +1,8 @@
 
 import './Profile.css';
 import React, {useState,useEffect} from 'react';
-import profile from '../images/fyle.png';
-import Header from './Header';
+//import profile from '../images/fyle.png';
+//import Header from './Header';
 
 function Profile({user}) {
     const [data,setdata] = useState({})
